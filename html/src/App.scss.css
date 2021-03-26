@@ -1,0 +1,30 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  display: flex;
+}
+
+.left {
+  width:20%;
+}
+.middle {
+  width: 60%;
+}
+.githt {
+  width: 20%;
+}
+.rel {
+  position: relative;
+}
+.trash {
+  position: absolute;
+  right: 12px;
+  top: 12px;
+  background: #fff;
+  /* border: 1px solid red; */
+  width: 30px;
+  height: 30px;
+  text-align: center;
+}
+
+body{border:1px solid red}

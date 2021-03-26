@@ -1,0 +1,45 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  display: flex;
+}
+.container{width:100%; max-width:1200px; margin:0 auto}
+.row{display:flex; width:100%; justify-content:space-between; padding:10px 10px}
+.left {
+  width:20%;
+}
+body{
+	padding:0; margin:0; font-family:calibri; font-size:14px
+}
+.middle {
+  width: 50%;
+}
+.rhs {
+  width:20%;
+}
+.rhs textarea{
+  width: 100%;
+  margin:0;padding:0; height:50px; border:1px solid #ddd; padding:10px
+}
+.rel {
+  position: relative;
+}
+.flex{display:flex; width:100%; justify-content:space-between; padding:10px 10px}
+.col_1{width:30px; height:30px; }
+.col_1 input{width:20px; height:20px; }
+.col_2{width:calc(100% - 60px); }
+
+.list-group .list-group-item{border-radius:4px; padding:10px; color:#000; border:1px solid #ddd; margin-bottom:10px}
+.list-group .list-group-item.active{background:#f6f6f6; border:1px solid #e3e3e3;
+
+}
+.col_3{width:20px; height:20px; position: absolute;
+  right: 12px;
+  top: 12px;
+  background: #fff;
+  /* border: 1px solid red; */
+  width: 30px;
+  height: 30px;
+  text-align: center; }
+
+
